@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'CustomFont';
+    src: url('./fonts/MagilioRegular-Yzv2O.ttf') format('truetype');
+    overflow: hidden;
+}
+
+:root{
+    overflow: hidden;
+    font-family: 'CustomFont', sans-serif;
+}
